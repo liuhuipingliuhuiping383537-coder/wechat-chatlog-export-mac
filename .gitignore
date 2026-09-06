@@ -1,0 +1,22 @@
+# 导出结果：包含全部聊天记录，绝对不要提交
+output/
+wechat-export/
+chats/
+_解密库/
+index.json
+*.html
+
+# 密钥与中间产物
+all_keys.json
+salts.json
+pbkdf_hits.jsonl
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# macOS
+.DS_Store
